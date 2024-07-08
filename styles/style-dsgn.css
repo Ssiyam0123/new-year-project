@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* body{
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center;
+    margin-top: 700px;
+} */
+
+
+*{
+    border: 0px;
+    margin: opx;
+    padding: 0px;
+}
+ .first-page{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 100px;
+    padding-top: 60px;
+ }
+
+.first-heading{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Merriweather;
+}
+.second-heading{
+    text-align: center;
+    /* color: rgb(255, 255, 255); */
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+.second-page{
+    text-align: center;
+    justify-content: center;
+}
+.second-page-first-title{
+    /* text-align: center;
+    justify-content: center; */
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+}
+.second-page-second-title{
+    /* text-align: center;
+    justify-content: center; */
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+}
+.second-page-third-title{
+    /* text-align: center;
+    justify-content: center; */
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+}
+
+
+
+.third-page{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.third-page-first-heading{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 55px;
+font-weight: 900;
+padding-left: 126px;
+margin-top: 126px;
+}
+.third-page-second-heading{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-left: 126px;
+margin-bottom: 24px;
+}
+.third-page-btn-container{
+    margin-left:158px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+margin-top: 48px;
+}
+.third-page-right-side{
+    margin-right: 150px;
+    
+    margin-top: 68px;
+    margin-bottom: 67px;
+    border: 1px rgb(255, 252, 252);
+    border-style: dashed ;
+}
+
+
+.fourth-page{
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 386px;
+    padding-bottom: 150px;
+    padding-left: 385px;
+    /* border: 1px solid pink; */
+    margin-top:120px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: ;
+    border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.fourth-page-first-heading{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+color: red;
+}
+.black-heading{
+    color: black;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+}
+.fourth-page-button-container{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+border-radius: 8px;
+
+background: rgb(255, 0, 0);
+padding: 10px;
+margin-top: 64px;
+}
+
+
+.fifth-page{
+    display: flex;
+    text-align: center;
+}
+.fifth-page-first-half{
+    text-align: left;
+    margin-left: 140px;
+}
+.fifth-page-first-half-first-heading{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.fifth-page-first-half-second-heading{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 42px;
+font-weight: 900
+}
+.fifth-page-first-half-third-heading{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+.fifth-page-middle{
+    
+}
+.fifth-page-last{
+    text-align: left;
+}
+.fifth-page-first-heading{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+}
+.fifth-page-second-heading{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;   
+}
+.fifth-page-last{
+    border-right: 200px;
+}
+.sixth-page{
+    text-align: center;
+}
+.sixth-page-first-heading{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.sixth-page-second-heading{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: red;
+
+}
+.sixth-page-third-heading{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.black-heading-sixth-page{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
